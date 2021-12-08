@@ -11,7 +11,9 @@ mentioned and coded both with comments and required documentation in the submitt
 
 ## Getting the data:
 You will need to download scientific article data from https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/
+
 With the documentation here: https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
+
 As the files are quite large you can constrain your study to files comm_use.I-N.xml.tar.gz
 and non_comm_use.I-N.xml.tar.gz, although you are free to analyze the contents of all the files if you so 
 wish.
@@ -25,6 +27,7 @@ about COVID-19 or not. You should estimate formally the performance of your clas
 (TN + TP)/(TN + TP + FN + FP). Hint: picking articles with COVID-19 keyword in titles/abstracts 
 would seed your training set of ‘positive’ texts whereas pre-2020 papers can be taken as the ‘negative’ 
 set.
+
 Using the classifier, estimate the proportion of papers on COVID-19 in your dataset:
 - As proportion of all papers in 2020 in the dataset you downloaded.
 - As proportion of articles in a given journal (e.g. Lancet, Nature) in 2020.
