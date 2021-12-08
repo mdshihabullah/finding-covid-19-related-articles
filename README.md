@@ -5,4 +5,4 @@ recommended dataset comprising scientific publications are COVID-19 related or n
 using Naive Bayes classifier.
 
 Various utility steps, function and core methods undertaken to achieve the tasks are
-mentioned and coded both with comments and required documentation in the submitted Jupyter notebook file.
+mentioned and coded both with comments and required documentation in the submitted Jupyter notebook file.
